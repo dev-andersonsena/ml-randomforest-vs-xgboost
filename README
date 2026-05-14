@@ -1,0 +1,19 @@
+Lab: Comparing Random Forest and XGBoost modeling performance
+Estimated time needed: 20 minutes
+
+Objectives
+After completing this lab, you will be able to:
+
+Use scikit-learn to implement Random Forest and XGBoost regression models
+Compare the performances of the two models
+
+Introduction
+In this lab, you'll create and measure the relative performances of Random Forest and XGBoost regression models for predicting house prices using the California Housing Dataset. 'Performance' means both speed and accuracy.
+
+First, we need to install the libraries that will be required in this lab.
+
+!pip install pandas
+!pip install numpy==2.2.0
+!pip install scikit-learn==1.6.0
+!pip install matplotlib==3.9.3
+!pip install xgboost==2.1.3
